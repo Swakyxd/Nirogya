@@ -9,6 +9,8 @@ const GetStartedPage = () => {
     name: '',
     symptoms: ''
   })
+  const [isSubmitting, setIsSubmitting] = useState(false)
+  const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle')
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target
@@ -18,11 +20,55 @@ const GetStartedPage = () => {
     }))
   }
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    // Handle form submission here
-    console.log('Form submitted:', formData)
-    // You can add logic to process the form data
+    setIsSubmitting(true)
+    setSubmitStatus('idle')
+    
+    try {
+      // Create report data matching backend schema
+      const reportData = {
+        patientInfo: {
+          name: formData.name,
+          age: null, // Not collected in this simple form
+          gender: null // Not collected in this simple form
+        },
+        symptoms: [{
+          name: formData.symptoms,
+          severity: "unknown",
+          duration: "unknown"
+        }],
+        location: {
+          state: "Northeast India", // Default for now
+          district: "Unknown"
+        },
+        urgency: "low",
+        notes: `Submitted via get-started form: ${formData.symptoms}`
+      }
+
+      const response = await fetch('http://localhost:5000/api/reports/anonymous', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(reportData)
+      })
+
+      if (response.ok) {
+        const result = await response.json()
+        console.log('Report submitted successfully:', result)
+        setSubmitStatus('success')
+        setFormData({ name: '', symptoms: '' }) // Reset form
+      } else {
+        console.error('Failed to submit report:', response.statusText)
+        setSubmitStatus('error')
+      }
+    } catch (error) {
+      console.error('Error submitting report:', error)
+      setSubmitStatus('error')
+    } finally {
+      setIsSubmitting(false)
+    }
   }
 
   return (
@@ -116,10 +162,30 @@ const GetStartedPage = () => {
               <div className="text-center pt-6">
                 <button
                   type="submit"
-                  className="bg-primary-500 hover:bg-primary-600 text-white px-12 py-4 rounded-xl bold-16 transition-all transform hover:scale-105 shadow-lg"
+                  disabled={isSubmitting}
+                  className="bg-primary-500 hover:bg-primary-600 disabled:bg-gray-400 text-white px-12 py-4 rounded-xl bold-16 transition-all transform hover:scale-105 disabled:hover:scale-100 shadow-lg"
                 >
-                  Get Personalized Guidance
+                  {isSubmitting ? 'Submitting...' : 'Get Personalized Guidance'}
                 </button>
+                
+                {/* Status Messages */}
+                {submitStatus === 'success' && (
+                  <div className="mt-4 p-4 bg-green-50 border border-green-200 rounded-xl">
+                    <p className="regular-14 text-green-700">
+                      ✅ Thank you! Your information has been submitted successfully. 
+                      Healthcare professionals will review your submission.
+                    </p>
+                  </div>
+                )}
+                
+                {submitStatus === 'error' && (
+                  <div className="mt-4 p-4 bg-red-50 border border-red-200 rounded-xl">
+                    <p className="regular-14 text-red-700">
+                      ❌ There was an error submitting your information. Please try again.
+                    </p>
+                  </div>
+                )}
+                
                 <p className="regular-14 text-gray-50 mt-4">
                   We'll analyze your information and provide helpful resources and recommendations.
                 </p>
