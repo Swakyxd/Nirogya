@@ -3,15 +3,22 @@
     {
       "disease": "Cholera",
       "symptoms": [
-        "Profuse watery diarrhea (rice-water appearance) - up to 10-20 liters per day",
-        "Severe vomiting and nausea",
-        "Rapid dehydration with sunken eyes and dry mouth",
-        "Muscle cramps, especially in legs and abdomen",
-        "Low blood pressure and weak pulse",
-        "Skin loses elasticity (pinched skin stays elevated)",
-        "Little or no urine production",
+        "**Profuse watery diarrhea with rice-water appearance** - up to 10-20 liters per day",
+        "**Painless, voluminous stools** (distinguishes from other dysenteries)",
+        "Severe vomiting and nausea (projectile vomiting)",
+        "**Rapid, severe dehydration** with sunken eyes and dry mouth",
+        "**Muscle cramps, especially in legs and abdomen** (pathognomonic sign)",
+        "**Skin loses elasticity** - pinched skin stays elevated for >2 seconds",
+        "**Little or no urine production** (oliguria/anuria)",
+        "**Thready, weak pulse** and low blood pressure",
+        "**No fever or minimal fever** (unlike other bacterial infections)",
         "Shock and collapse in severe cases",
-        "Symptoms appear 2 hours to 5 days after infection"
+        "**Symptoms appear rapidly: 2 hours to 5 days after infection**"
+      ],
+      "distinctive_features": [
+        "Rice-water stools without blood or mucus",
+        "Massive fluid loss without abdominal pain",
+        "Absence of fever in most cases"
       ],
       "causes": [
         "Vibrio cholerae bacteria (O1 and O139 strains)",
@@ -34,27 +41,36 @@
         "region": "Northeast India",
         "high_risk_areas": ["Silchar", "Dibrugarh", "Jorhat", "Imphal valley", "Brahmaputra valley", "Barak valley"],
         "season": "Annual outbreaks during monsoon floods",
+        "water_sources": "Flood-contaminated surface water, rivers",
         "special_programs": "Government runs special cholera control programs during monsoon"
       },
       "treatment": [
         "Immediate ORS and IV fluid replacement",
-        "Antibiotics in severe cases",
+        "Antibiotics in severe cases (Doxycycline, Azithromycin)",
         "Hospitalization for shock/collapse cases"
       ]
     },
     {
       "disease": "Typhoid Fever",
       "symptoms": [
-        "High fever with step-ladder pattern (gradually increases to 104°F)",
-        "Severe headache and body weakness",
-        "Abdominal pain and bloating",
-        "Constipation in adults, diarrhea in children",
-        "Loss of appetite and significant weight loss",
-        "Rose-colored rash on chest and abdomen (appears in 30% cases)",
-        "Enlarged spleen (felt as left-side abdominal fullness)",
+        "**High fever with step-ladder pattern** - gradually increases to 104°F over 3-4 days",
+        "**Sustained high fever** for 2-4 weeks (unlike intermittent fevers)",
+        "**Severe headache and malaise** with body weakness",
+        "**Rose-colored rash on chest and abdomen** (appears in 30% cases, pathognomonic)",
+        "**Abdominal pain and bloating** with tenderness",
+        "**Constipation in adults, diarrhea in children** (age-specific pattern)",
+        "**Enlarged spleen** (splenomegaly - felt as left-side abdominal fullness)",
+        "**Loss of appetite and significant weight loss**",
+        "**Relative bradycardia** (slow pulse despite high fever)",
         "Confusion and delirium in severe cases",
         "Dry cough and sore throat",
-        "Symptoms develop 1-4 weeks after consuming contaminated water/food"
+        "**Symptoms develop slowly: 1-4 weeks after consuming contaminated water/food**"
+      ],
+      "distinctive_features": [
+        "Step-ladder fever pattern over days",
+        "Rose-colored rash on trunk",
+        "Relative bradycardia with high fever",
+        "Prolonged illness duration (weeks)"
       ],
       "causes": [
         "Salmonella Typhi bacteria",
@@ -66,7 +82,7 @@
         "Areas with inadequate water treatment"
       ],
       "prevention": [
-        "Typhoid vaccination (available free at government centers)",
+        "Typhoid vaccination (Ty21a oral or Vi polysaccharide injectable) - available free at government centers",
         "Drink boiled or properly treated water",
         "Eat freshly cooked, hot food",
         "Avoid street food and raw salads",
@@ -76,27 +92,36 @@
       "context": {
         "region": "Northeast India",
         "prevalence": "Endemic year-round in all Northeast states",
+        "water_sources": "Contaminated wells, municipal water systems",
         "healthcare": "Available at all CHCs (Community Health Centers)"
       },
       "treatment": [
-        "Complete course of prescribed antibiotics",
+        "Complete course of prescribed antibiotics (Ceftriaxone, Azithromycin)",
         "Adequate fluid intake and rest",
-        "Hospitalization for severe cases"
+        "Hospitalization for severe cases with complications"
       ]
     },
     {
       "disease": "Hepatitis A",
       "symptoms": [
-        "High fever (102-105°F) lasting 1-3 weeks",
-        "Extreme fatigue and weakness",
-        "Complete loss of appetite and nausea",
-        "Vomiting and right-sided abdominal pain",
-        "Dark yellow urine (like strong tea)",
-        "Clay-colored or pale stools",
-        "Yellowing of eyes and skin (jaundice)",
-        "Joint pain and muscle aches",
-        "Itching all over body",
-        "Symptoms last 2-8 weeks, more severe in adults over 30"
+        "**High fever (102-105°F) lasting 1-3 weeks**",
+        "**Extreme fatigue and weakness** (more severe than other viral illnesses)",
+        "**Complete loss of appetite and nausea**",
+        "**Right upper abdominal pain and tenderness** (liver region)",
+        "**Dark yellow urine like strong tea** (pathognomonic)",
+        "**Clay-colored or chalk-white stools** (pathognomonic)",
+        "**Progressive yellowing of eyes and skin (jaundice)** - starts with eyes",
+        "**Joint pain and muscle aches**",
+        "**Generalized itching all over body** (cholestatic pruritis)",
+        "Vomiting and general malaise",
+        "**Pre-icteric phase**: fever, fatigue, nausea (1-2 weeks before jaundice)",
+        "**Symptoms last 2-8 weeks, more severe in adults over 30**"
+      ],
+      "distinctive_features": [
+        "Dark urine and pale stools before jaundice appears",
+        "Intense itching with jaundice",
+        "Right upper quadrant abdominal pain",
+        "Pre-icteric prodromal phase"
       ],
       "causes": [
         "Hepatitis A virus (HAV)",
@@ -108,7 +133,7 @@
         "Raw or undercooked shellfish from contaminated water"
       ],
       "prevention": [
-        "Hepatitis A vaccination (two doses, 6 months apart)",
+        "Hepatitis A vaccination (Havrix/Vaqta - two doses, 6 months apart)",
         "Boil water for drinking and food preparation",
         "Avoid raw vegetables and fruits unless self-peeled",
         "Maintain strict hand hygiene",
@@ -117,26 +142,35 @@
       ],
       "context": {
         "region": "Northeast India",
-        "season": "Common during post-monsoon period in hill states"
+        "season": "Common during post-monsoon period in hill states",
+        "water_sources": "Contaminated wells, springs, rivers"
       },
       "treatment": [
-        "Supportive care and rest",
-        "Adequate hydration",
-        "Avoid alcohol and hepatotoxic medications"
+        "Supportive care and complete bed rest",
+        "Adequate hydration and nutrition",
+        "Strict avoidance of alcohol and hepatotoxic medications"
       ]
     },
     {
       "disease": "Hepatitis E",
       "symptoms": [
-        "Acute onset fever with chills",
-        "Severe nausea and persistent vomiting",
-        "Right upper abdominal pain and tenderness",
-        "Dark urine and pale stools",
-        "Jaundice (more intense than Hepatitis A)",
-        "Joint pain and skin rash",
-        "Extremely dangerous for pregnant women (can cause liver failure and death)",
-        "Mental confusion in severe cases",
-        "Symptoms last 4-6 weeks"
+        "**Acute onset fever with rigors and chills**",
+        "**Severe nausea and persistent vomiting**",
+        "**Right upper abdominal pain and hepatomegaly**",
+        "**Dark urine and pale stools** (similar to Hepatitis A but more intense)",
+        "**More intense jaundice** than Hepatitis A",
+        "**Joint pain and skin rash** (maculopapular)",
+        "**Extremely dangerous for pregnant women** - can cause acute liver failure",
+        "**Mental confusion and altered consciousness** in severe cases",
+        "**Rapid progression to liver failure** (distinguishes from Hepatitis A)",
+        "**Symptoms last 4-6 weeks with potential for chronicity**",
+        "**Higher mortality rate** especially in pregnant women (15-25%)"
+      ],
+      "distinctive_features": [
+        "More severe jaundice than Hepatitis A",
+        "High mortality in pregnant women",
+        "Rapid progression to liver failure",
+        "Associated skin rash"
       ],
       "causes": [
         "Hepatitis E virus (HEV) - genotypes 1 and 2 most common in Northeast",
@@ -144,42 +178,50 @@
         "Drinking water from contaminated rivers and ponds",
         "Poor sewage disposal during monsoon",
         "Contaminated groundwater in waterlogged areas",
-        "Eating undercooked pork (less common)"
+        "Eating undercooked pork (genotype 3 and 4 - less common)"
       ],
       "prevention": [
         "Ensure safe drinking water through boiling",
         "Avoid drinking water from unknown sources during floods",
         "Proper sewage and waste management",
-        "Pregnant women should be extremely cautious",
-        "Avoid raw or undercooked meat",
+        "**Pregnant women should be extremely cautious and seek immediate care**",
+        "Avoid raw or undercooked meat, especially pork",
         "Maintain good personal and community hygiene"
       ],
       "context": {
         "region": "Northeast India",
         "season": "Major outbreaks during flood seasons in Assam and Tripura",
+        "water_sources": "Flood-contaminated surface water, rivers, ponds",
         "special_risk": "Pregnant women mortality rate is 15-25% - immediate medical attention required"
       },
       "treatment": [
-        "Supportive care and monitoring",
-        "Immediate hospitalization for pregnant women",
-        "Liver function monitoring"
+        "Supportive care and close monitoring",
+        "**Immediate hospitalization for pregnant women**",
+        "Liver function monitoring and management of complications"
       ]
     },
     {
       "disease": "Amoebiasis (Amoebic Dysentery)",
       "symptoms": [
-        "Loose stools with blood and mucus",
-        "Severe abdominal cramps and pain",
-        "Fever and chills",
-        "Nausea and vomiting",
-        "Weight loss and weakness",
-        "Urgency to defecate with feeling of incomplete evacuation",
-        "In severe cases: liver abscess with right shoulder pain",
-        "Chronic cases: alternating constipation and diarrhea",
-        "Symptoms can develop weeks to months after infection"
+        "**Gradual onset loose stools with blood and mucus** (not profuse like cholera)",
+        "**Severe cramping abdominal pain** (especially lower abdomen)",
+        "**Tenesmus** - urgency to defecate with feeling of incomplete evacuation",
+        "**Alternating constipation and diarrhea** in chronic cases",
+        "**Low-grade fever and chills** (not high fever)",
+        "**Gradual weight loss and weakness over weeks**",
+        "**Right upper abdominal pain** if liver abscess develops",
+        "**Right shoulder pain** (referred pain from liver abscess)",
+        "**Symptoms can develop weeks to months after infection** (chronic course)",
+        "**May be asymptomatic for long periods** with intermittent flares"
+      ],
+      "distinctive_features": [
+        "Gradual onset over weeks/months",
+        "Alternating bowel habits in chronic cases",
+        "Right shoulder pain with liver involvement",
+        "Chronic, relapsing course"
       ],
       "causes": [
-        "Entamoeba histolytica parasite",
+        "Entamoeba histolytica parasite (cysts in water)",
         "Drinking water contaminated with human waste",
         "Eating food washed with contaminated water",
         "Poor sanitation and sewage systems",
@@ -196,10 +238,11 @@
       ],
       "context": {
         "region": "Northeast India",
-        "prevalence": "Common in rural areas with poor water treatment"
+        "prevalence": "Common in rural areas with poor water treatment",
+        "water_sources": "Contaminated wells, storage tanks"
       },
       "treatment": [
-        "Anti-parasitic medications (Metronidazole)",
+        "Anti-parasitic medications (Metronidazole followed by Paromomycin)",
         "Rehydration therapy",
         "Treatment of complications like liver abscess"
       ]
@@ -207,63 +250,81 @@
     {
       "disease": "Giardiasis",
       "symptoms": [
-        "Watery, foul-smelling diarrhea",
-        "Stomach cramps and bloating",
-        "Gas and belching",
-        "Nausea but usually no vomiting",
-        "Fatigue and weight loss",
-        "Dehydration in children",
-        "Symptoms appear 1-3 weeks after infection",
-        "Can become chronic if untreated"
+        "**Chronic watery diarrhea with foul-smelling, greasy stools that float** (pathognomonic)",
+        "**Excessive gas, bloating, and belching** (malabsorption)",
+        "**Stomach cramps and abdominal distension**",
+        "**Gradual weight loss and failure to thrive** (especially in children)",
+        "**Chronic fatigue and weakness** over weeks",
+        "**Nausea but usually no vomiting** (distinguishes from viral gastroenteritis)",
+        "**Lactose intolerance** may develop",
+        "**Symptoms appear 1-3 weeks after infection**",
+        "**Can become chronic if untreated** lasting months",
+        "**No fever or minimal fever** (unlike bacterial infections)"
+      ],
+      "distinctive_features": [
+        "Foul-smelling, greasy, floating stools",
+        "Chronic malabsorption symptoms",
+        "Excessive gas and bloating",
+        "Absence of fever and blood in stools"
       ],
       "causes": [
-        "Giardia lamblia parasite",
-        "Drinking untreated water from streams, lakes, and wells",
+        "Giardia lamblia parasite (cysts survive in cold water)",
+        "Drinking untreated water from streams, lakes, and mountain springs",
         "Contaminated water sources by animal and human waste",
-        "Poor water treatment in rural areas",
+        "Poor water treatment in rural mountainous areas",
         "Swimming in contaminated natural water bodies",
         "Cross-contamination from infected individuals"
       ],
       "prevention": [
         "Boil water from natural sources for at least 3 minutes",
         "Use water filters with 1-micron pore size or smaller",
-        "Avoid drinking from streams and lakes",
+        "Avoid drinking from streams and lakes in hilly areas",
         "Proper sewage treatment and disposal",
         "Good personal hygiene practices",
         "Avoid swallowing water while swimming"
       ],
       "context": {
         "region": "Northeast India",
-        "prevalence": "Common in mountainous areas with stream water sources"
+        "prevalence": "Common in mountainous areas with stream water sources",
+        "water_sources": "Mountain springs, streams, untreated surface water",
+        "geographic_risk": "Hilly regions of Meghalaya, Arunachal Pradesh, Mizoram"
       },
       "treatment": [
         "Anti-parasitic medications (Metronidazole or Tinidazole)",
-        "Supportive care and rehydration"
+        "Supportive care and rehydration",
+        "Lactase supplements if lactose intolerance develops"
       ]
     },
     {
       "disease": "Rotavirus Diarrhea",
       "symptoms": [
-        "Severe watery diarrhea (can be 10-20 times per day)",
-        "Vomiting and fever",
-        "Rapid dehydration, especially dangerous in infants",
-        "Abdominal pain and irritability",
-        "Loss of appetite",
-        "Sunken eyes and fontanelle in babies",
-        "Reduced urine output",
-        "Symptoms last 3-8 days",
-        "Most severe in children under 2 years"
+        "**Severe watery diarrhea** (10-20 times per day in infants)",
+        "**Prominent vomiting** that precedes diarrhea",
+        "**High fever (102-104°F)** in young children",
+        "**Rapid dehydration** - especially dangerous in infants under 2 years",
+        "**Abdominal pain and severe irritability** in children",
+        "**Complete loss of appetite and refusal to feed**",
+        "**Sunken eyes and fontanelle** in babies (dehydration signs)",
+        "**Reduced urine output** (oliguria)",
+        "**Symptoms last 3-8 days** (self-limiting)",
+        "**Most severe in children under 2 years, milder in adults**"
+      ],
+      "distinctive_features": [
+        "Prominent vomiting before diarrhea onset",
+        "Age-specific severity (worst in infants)",
+        "Self-limiting course (3-8 days)",
+        "Seasonal pattern (winter months)"
       ],
       "causes": [
-        "Rotavirus (multiple strains)",
+        "Rotavirus (multiple strains - Group A most common)",
         "Contaminated water used for drinking or food preparation",
         "Poor hygiene and sanitation",
-        "Overcrowded conditions",
-        "Contaminated surfaces and objects",
-        "Person-to-person transmission in daycare and schools"
+        "Overcrowded conditions (daycare, schools)",
+        "Contaminated surfaces and fomites",
+        "Person-to-person transmission (highly contagious)"
       ],
       "prevention": [
-        "Rotavirus vaccination for infants (available at government centers)",
+        "Rotavirus vaccination for infants (RotaTeq/Rotarix) - available at government centers",
         "Safe water practices for infant formula preparation",
         "Exclusive breastfeeding for first 6 months",
         "Proper hand hygiene, especially when handling children",
@@ -272,7 +333,8 @@
       ],
       "context": {
         "region": "Northeast India",
-        "season": "Peak season: November to April",
+        "season": "Peak season: November to April (winter months)",
+        "age_group": "Primary: infants and toddlers under 5 years",
         "special_programs": "Government runs intensive immunization programs",
         "healthcare": "ORS and zinc tablets available free at all health centers",
         "significance": "Major cause of childhood diarrhea deaths"
@@ -280,101 +342,125 @@
       "treatment": [
         "ORS and zinc supplementation",
         "IV fluids for severe dehydration",
-        "Supportive care"
+        "Continued feeding and breastfeeding"
       ]
     },
     {
       "disease": "Cryptosporidiosis",
       "symptoms": [
-        "Profuse watery diarrhea lasting 1-2 weeks",
-        "Stomach cramps and nausea",
-        "Low-grade fever and vomiting",
-        "Dehydration and weight loss",
-        "Fatigue and loss of appetite",
-        "More severe in immunocompromised individuals",
-        "Can become chronic in HIV patients"
+        "**Profuse watery diarrhea** lasting 1-2 weeks (similar volume to cholera)",
+        "**Stomach cramps and persistent nausea**",
+        "**Low-grade fever and intermittent vomiting**",
+        "**Gradual dehydration and progressive weight loss**",
+        "**Chronic fatigue and loss of appetite**",
+        "**Self-limiting in immunocompetent** (resolves in 2-3 weeks)",
+        "**Severe, chronic, life-threatening in immunocompromised** (HIV, malnutrition)",
+        "**Can become chronic** and last months in HIV patients"
+      ],
+      "distinctive_features": [
+        "Self-limiting in healthy individuals",
+        "Chronic and severe in immunocompromised",
+        "Resistant to standard water chlorination",
+        "Associated with treated municipal water"
       ],
       "causes": [
-        "Cryptosporidium parvum and C. hominis parasites",
+        "Cryptosporidium parvum and C. hominis parasites (oocysts)",
         "Contaminated water sources including treated municipal water",
-        "Swimming pools and recreational water",
-        "Contact with infected animals (cattle, sheep)",
-        "Person-to-person transmission",
+        "Swimming pools and recreational water facilities",
+        "Contact with infected animals (cattle, sheep, goats)",
+        "Person-to-person transmission (highly infectious)",
         "Contaminated food washed with unsafe water"
       ],
       "prevention": [
-        "Boil water for at least 3 minutes (resistant to chlorine)",
-        "Use certified water filters (1 micron or smaller)",
+        "Boil water for at least 3 minutes (oocysts resistant to chlorine)",
+        "Use certified water filters (1 micron or smaller pore size)",
         "Avoid swimming in potentially contaminated water",
-        "Practice good hand hygiene",
+        "Practice strict hand hygiene",
         "Avoid contact with animal feces",
-        "Be extra cautious if immunocompromised"
+        "**Extra caution if immunocompromised or HIV positive**"
       ],
       "context": {
         "region": "Northeast India",
         "prevalence": "Emerging concern in areas with improved water treatment",
-        "risk_groups": "Higher risk in HIV patients and malnourished children"
+        "risk_groups": "Higher risk in HIV patients and malnourished children",
+        "water_sources": "Municipal water systems, swimming facilities"
       },
       "treatment": [
-        "Supportive care and rehydration",
+        "Supportive care and aggressive rehydration",
         "Nitazoxanide in severe cases",
-        "No specific cure - prevention is key"
+        "**No specific cure - prevention is critical**"
       ]
     },
     {
       "disease": "Campylobacteriosis",
       "symptoms": [
-        "Diarrhea (often bloody)",
-        "Fever and abdominal cramps",
-        "Nausea and vomiting",
-        "Headache and muscle pain",
-        "Symptoms appear 2-5 days after infection",
-        "Can lead to Guillain-Barré syndrome in rare cases",
-        "Usually self-limiting in 3-7 days"
+        "**Diarrhea often bloody with mucus** (hemorrhagic enteritis)",
+        "**High fever (101-104°F) and severe chills**",
+        "**Severe abdominal cramps** (colicky pain)",
+        "**Nausea and vomiting**",
+        "**Headache and muscle pain** (systemic symptoms)",
+        "**Symptoms appear 2-5 days after infection** (short incubation)",
+        "**Usually self-limiting in 3-7 days** (shorter than other bacterial infections)",
+        "**Post-infectious complications**: Guillain-Barré syndrome (rare but serious)"
+      ],
+      "distinctive_features": [
+        "Bloody diarrhea with short incubation period",
+        "Self-limiting course (3-7 days)",
+        "Association with poultry consumption",
+        "Risk of Guillain-Barré syndrome"
       ],
       "causes": [
-        "Campylobacter jejuni bacteria",
+        "Campylobacter jejuni bacteria (thermophilic)",
         "Contaminated water sources",
-        "Undercooked poultry and meat",
-        "Cross-contamination from raw meat",
+        "Undercooked poultry and meat (primary source)",
+        "Cross-contamination from raw meat in kitchen",
         "Unpasteurized milk and dairy products",
-        "Contact with infected animals"
+        "Contact with infected animals (backyard poultry)"
       ],
       "prevention": [
         "Boil or properly treat drinking water",
-        "Cook poultry and meat thoroughly",
+        "Cook poultry and meat thoroughly (internal temp >165°F)",
         "Avoid cross-contamination in kitchen",
         "Drink only pasteurized milk",
-        "Practice good food hygiene",
+        "Practice strict food hygiene",
         "Wash hands after animal contact"
       ],
       "context": {
         "region": "Northeast India",
         "prevalence": "Common in areas with backyard poultry farming",
-        "season": "Year-round but peaks during warmer months"
+        "season": "Year-round but peaks during warmer months",
+        "food_sources": "Backyard poultry, raw milk"
       },
       "treatment": [
-        "Usually self-limiting",
+        "Usually self-limiting - supportive care",
         "Rehydration therapy",
-        "Antibiotics only in severe cases"
+        "Antibiotics (Azithromycin) only in severe cases"
       ]
     },
     {
       "disease": "Shigellosis (Bacillary Dysentery)",
       "symptoms": [
-        "Diarrhea with blood, mucus, and pus",
-        "High fever and chills",
-        "Severe abdominal cramps",
-        "Tenesmus (feeling of incomplete evacuation)",
-        "Nausea and vomiting",
-        "Dehydration and weakness",
-        "Symptoms appear 1-3 days after infection",
-        "Can cause seizures in young children"
+        "**Diarrhea with blood, mucus, and pus** (classic dysentery)",
+        "**High fever (102-106°F) with rigors and chills**",
+        "**Severe, cramping abdominal pain** (lower abdomen)",
+        "**Tenesmus** - constant urge to defecate with minimal stool passage",
+        "**Small volume, frequent stools** (unlike cholera's large volume)",
+        "**Nausea and vomiting**",
+        "**Rapid dehydration and prostration**",
+        "**Symptoms appear 1-3 days after infection** (short incubation)",
+        "**Febrile seizures** in young children (due to high fever)",
+        "**Can progress to hemolytic uremic syndrome** (HUS) with S. dysenteriae"
+      ],
+      "distinctive_features": [
+        "Classic bloody dysentery with small volume stools",
+        "Very high fever with rigors",
+        "Severe tenesmus",
+        "Risk of febrile seizures in children"
       ],
       "causes": [
         "Shigella bacteria (S. flexneri, S. sonnei, S. boydii, S. dysenteriae)",
         "Contaminated water and food",
-        "Person-to-person transmission via fecal-oral route",
+        "Person-to-person transmission via fecal-oral route (highly contagious)",
         "Poor sanitation and hygiene",
         "Overcrowded living conditions",
         "Contaminated recreational water"
@@ -390,37 +476,77 @@
       "context": {
         "region": "Northeast India",
         "prevalence": "Common in areas with poor sanitation",
-        "high_risk": "Daycare centers, schools, refugee camps"
+        "high_risk_settings": "Daycare centers, schools, refugee camps, slums",
+        "person_to_person": "Highly contagious"
       },
       "treatment": [
-        "Antibiotics (ciprofloxacin, azithromycin)",
-        "Rehydration therapy",
-        "Hospitalization for severe cases"
+        "Antibiotics (Ciprofloxacin, Azithromycin) - essential",
+        "Aggressive rehydration therapy",
+        "Hospitalization for severe cases and young children"
       ]
     }
   ],
+
+  "diagnostic_differentiation_guide": {
+    "by_stool_characteristics": {
+      "watery_profuse": ["Cholera", "Rotavirus", "Cryptosporidiosis"],
+      "bloody_mucoid": ["Shigellosis", "Amoebiasis", "Campylobacteriosis"],
+      "greasy_floating": ["Giardiasis"],
+      "rice_water": ["Cholera"]
+    },
+    "by_fever_pattern": {
+      "no_fever_minimal": ["Cholera", "Giardiasis"],
+      "high_fever_acute": ["Shigellosis", "Campylobacteriosis"],
+      "step_ladder_fever": ["Typhoid"],
+      "prolonged_fever": ["Typhoid", "Hepatitis A", "Hepatitis E"]
+    },
+    "by_onset_pattern": {
+      "acute_hours": ["Cholera"],
+      "acute_days": ["Shigellosis", "Campylobacteriosis", "Rotavirus"],
+      "gradual_weeks": ["Typhoid", "Amoebiasis", "Giardiasis"],
+      "chronic_months": ["Giardiasis", "Amoebiasis"]
+    },
+    "by_special_features": {
+      "jaundice": ["Hepatitis A", "Hepatitis E"],
+      "rose_rash": ["Typhoid"],
+      "muscle_cramps": ["Cholera"],
+      "malabsorption": ["Giardiasis"],
+      "liver_involvement": ["Hepatitis A", "Hepatitis E", "Amoebiasis"],
+      "pregnancy_risk": ["Hepatitis E"]
+    }
+  },
+
   "emergency_warning_signs": {
     "immediate_medical_attention_required": [
-      "Signs of severe dehydration (no urination for 12+ hours)",
+      "Signs of severe dehydration (no urination for 12+ hours, sunken eyes)",
       "High fever above 103°F for more than 2 days",
-      "Blood in vomit or stools",
-      "Severe abdominal pain",
+      "Blood in vomit or large amounts of blood in stools",
+      "Severe abdominal pain with rigidity",
       "Signs of shock (cold skin, rapid weak pulse, confusion)",
-      "Persistent vomiting preventing fluid intake",
+      "Persistent vomiting preventing fluid intake for >6 hours",
       "Jaundice (yellowing of eyes and skin)",
-      "Difficulty breathing or chest pain"
+      "Difficulty breathing or chest pain",
+      "Altered mental status or confusion",
+      "Signs of severe dehydration in infants (sunken fontanelle, no tears when crying)"
     ]
   },
+
   "northeast_india_healthcare_resources": {
-    "primary_healthcare": "All PHCs stock ORS and basic medications",
-    "secondary_healthcare": "District hospitals have facilities for IV fluid therapy",
-    "tertiary_healthcare": "Medical colleges in Guwahati, Imphal, Shillong, Dimapur for serious cases",
+    "primary_healthcare": "All PHCs stock ORS, zinc tablets, and basic antibiotics",
+    "secondary_healthcare": "District hospitals have facilities for IV fluid therapy and isolation",
+    "tertiary_healthcare": "Medical colleges in Guwahati, Imphal, Shillong, Dimapur for serious complications",
     "emergency_services": "108 ambulance service available in all states",
-    "telemedicine": "Facilities available in remote areas",
+    "telemedicine": "Facilities available in remote areas through NHM",
     "special_programs": [
-      "Cholera control programs during monsoon",
-      "Intensive immunization programs for rotavirus",
-      "Free vaccination at government health centers"
-    ]
+      "Cholera control programs during monsoon season",
+      "Intensive immunization programs for rotavirus and hepatitis",
+      "Free vaccination at all government health centers",
+      "Water quality monitoring during flood seasons"
+    ],
+    "laboratory_facilities": {
+      "stool_examination": "Available at all CHCs and above",
+      "blood_tests": "Widal test, liver function tests at district hospitals",
+      "rapid_diagnostic_tests": "Available for cholera and rotavirus"
+    }
   }
 }
