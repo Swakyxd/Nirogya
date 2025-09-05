@@ -1,0 +1,87 @@
+{
+  "diseases": [
+    {
+      "name": "monsoon_related_cholera",
+      "description": "Acute cholera outbreak common during Northeast India monsoon season due to contaminated water sources and flooding.",
+      "transmission": "Contaminated floodwater, poor drainage systems during monsoon, contaminated tube wells",
+      "severity": "Life-threatening during monsoon outbreaks",
+      "treatment": "Immediate ORS, IV fluids, contact nearest CHC or PHC, evacuation to district hospital if severe",
+      "prevention": "Boil water for 10 minutes during monsoon, avoid street food, use government-approved water sources",
+      "region_specific_info": "Common in Assam, Tripura during June-September. Govt helpline: 104. Free ORS packets available at all PHCs. Flood-prone areas have mobile medical units.",
+      "symptoms": ["paani jaisa diarrhea", "pet mein bal", "kamjori", "pyaas", "chakkar aana"]
+    }
+  ],
+  "synonyms": {
+    "diarrhea": "pet loose",
+    "diarrhea": "loose motion", 
+    "diarrhea": "paani jaisa potty",
+    "diarrhea": "patlaa paikhana",
+    "fever": "bukhar",
+    "fever": "jor",
+    "fever": "garam",
+    "stomach pain": "pet mein dard",
+    "stomach pain": "pet kharab",
+    "stomach pain": "pet mein bal",
+    "vomiting": "ulti",
+    "vomiting": "vomit korna",
+    "headache": "sir mein dard",
+    "headache": "sir dukh raha hai",
+    "weakness": "kamjori",
+    "weakness": "takat nahi",
+    "nausea": "jee michlaana",
+    "dehydration": "paani ki kami",
+    "yellow eyes": "aankh peeli",
+    "yellow skin": "rang peela",
+    "blood in stool": "potty mein khoon",
+    "muscle cramps": "naso mein dard",
+    "thirst": "pyaas",
+    "dry mouth": "munh sukha",
+    "fatigue": "thakaan",
+    "loss of appetite": "bhookh nahi",
+    "abdominal cramps": "pet mein marod",
+    
+    "paani jesa": "watery",
+    "loose": "patla",
+    "potty": "stool",
+    "paikhana": "stool",
+    "garam": "hot temperature",
+    "bal": "pain",
+    "takat": "strength",
+    "michlaana": "feeling sick",
+    "sukha": "dry",
+    "marod": "cramping pain",
+    
+    "loose motions": "diarrhea",
+    "stomach upset": "abdominal pain",
+    "body pain": "muscle aches",
+    "feeling weak": "weakness", 
+    "throwing up": "vomiting",
+    "belly pain": "abdominal pain",
+    "yellow color": "jaundice",
+    "body ache": "muscle aches"
+  },
+  "regional_context": {
+    "languages_supported": ["Hindi", "Assamese terms", "Bengali terms", "Common local expressions"],
+    "monsoon_months": "June to September - High risk period",
+    "emergency_services": {
+      "ambulance": "108",
+      "health_helpline": "104", 
+      "disaster_management": "1070"
+    },
+    "healthcare_facilities": {
+      "PHC": "Primary Health Centre - Basic treatment",
+      "CHC": "Community Health Centre - Advanced care",
+      "District_Hospital": "Emergency and specialist care",
+      "Medical_College": "Tertiary care in state capitals"
+    },
+    "vaccination_centers": "All government health facilities provide free Hepatitis A, Typhoid, and Cholera vaccines",
+    "water_safety": {
+      "government_schemes": "Jal Jeevan Mission - Piped water supply",
+      "testing": "Water testing kits available at PHCs",
+      "monsoon_advisory": "Boil all water during monsoon, avoid tube wells in flood areas"
+    }
+  },
+  "created_date": "2024-01-15T10:30:00Z",
+  "description": "Comprehensive Northeast India regional medical terminology and context for waterborne diseases",
+  "data_sources": "Regional health departments, local medical terminology, government health schemes"
+}

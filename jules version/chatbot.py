@@ -3,6 +3,7 @@ import warnings
 from dotenv import load_dotenv
 
 from langchain_community.document_loaders import TextLoader
+from langchain_community.document_loaders import JSONLoader  # <-- add this import
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
@@ -104,7 +105,15 @@ class MedicalAssistant:
             return FAISS.load_local(vector_store_path, self.embeddings, allow_dangerous_deserialization=True)
 
         print("🔄 Creating new vector store...")
-        loader = TextLoader(data_path, encoding='utf-8')
+        # Use JSONLoader for JSON files
+        if data_path.endswith('.json'):
+            loader = JSONLoader(
+                file_path=data_path,
+                jq_schema='.waterborne_diseases_northeast_india[]',
+                text_content=False
+            )
+        else:
+            loader = TextLoader(data_path, encoding='utf-8')
         documents = loader.load()
 
         text_splitter = RecursiveCharacterTextSplitter(chunk_size=1500, chunk_overlap=300)
@@ -204,7 +213,7 @@ class MedicalAssistant:
         self.llm = ChatGroq(temperature=0.1, groq_api_key=groq_api_key, model_name="llama-3.1-8b-instant")
         
         # Create vector store
-        self.vector_store = self.create_vector_store("disease.txt")
+        self.vector_store = self.create_vector_store("D:\\Visual Code\\Python Program\\SIH\\jules version\\disease.json")
         
         return True
 
